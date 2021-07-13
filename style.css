@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/f7/3a/5b/f73a5b4b7262440684a2b5c39e684304.jpg");
+}
+h1{
+    padding-top: 50px;
+    color:whitesmoke;
+    text-align: center;
+}
+
+#middle{
+    height: 600px;
+    display:flex;
+    align-items: center;
+}
+
+.key{
+    color:white;
+    border:black solid 3px;
+    background-color: rgba(0,0,0,0.5);
+    height: 80px;
+    text-align: center;
+    
+}
+
+.key:hover{
+    border:yellow solid 5px;
+    height:100px;
+    width:125px;
+}
+
+.effect{
+    border:yellow solid 5px;
+    height:100px;
+    width:125px;
+}

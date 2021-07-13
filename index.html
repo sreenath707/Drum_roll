@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drum-roll</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>DRUM-IT</h1>
+<body>
+    <div id="middle">
+        <section class="container">
+            <div class="row justify-content-around align-content-center">
+                <div class = "key col-1" data-code="65">
+                    <kbd>A</kbd>
+                    <div>sound</div>
+                </div>
+                <div class = "key col-1" data-code="83">
+                    <kbd>S</kbd>
+                    <div>sound</div>
+                </div>
+                <div class = "key col-1" data-code="68">
+                    <kbd>D</kbd>
+                    <div>sound</div>
+                </div>
+                <div class = "key col-1" data-code="70">
+                    <kbd>F</kbd>
+                    <div>sound</div>
+                </div>
+                <div class = "key col-1" data-code="74">
+                    <kbd>J</kbd>
+                    <div>sound</div>
+                </div>
+                <div class = "key col-1" data-code="75">
+                    <kbd>K</kbd>
+                    <div>sound</div>
+                </div>
+                <div class = "key col-1" data-code="76">
+                    <kbd>L</kbd>
+                    <div>sound</div>
+                </div>
+                <div class = "key col-1" data-code="180">
+                    <kbd>;</kbd>
+                    <div>sound</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <audio src="sounds/boom.wav" data-code="65"></audio>
+    <audio src="sounds/clap.wav" data-code="83"></audio>
+    <audio src="sounds/hihat.wav" data-code="68"></audio>
+    <audio src="sounds/kick.wav" data-code="70"></audio>
+    <audio src="sounds/openhat.wav" data-code="74"></audio>
+    <audio src="sounds/ride.wav" data-code="75"></audio>
+    <audio src="sounds/snare.wav" data-code="76"></audio>
+    <audio src="sounds/tink.wav" data-code="180"></audio>
+
+
+    <script src="bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
